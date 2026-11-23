@@ -13,7 +13,7 @@ picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용�
 
 **없습니다.** 앱에는 회원가입·로그인·개발자 서버가 없으며, 개발자는 이용자의 이름·연락처·위치 등 어떤 개인정보도 수집·저장·전송하지 않습니다.
 
-게임 기록, 설정, 진행 상황, 별(★) 보유량, 이어 하기 저장은 이용자의 휴대폰 안(앱 저장 공간)에만 저장되며, 앱을 삭제하면 함께 지워집니다. 설정 화면에서 직접 지울 수도 있습니다. 안드로이드 기기 백업이 켜져 있으면 이 데이터가 이용자 본인의 Google 계정 백업에 포함될 수 있으나, 개발자는 이에 접근할 수 없습니다.
+게임 기록, 설정, 진행 상황, 콘 보유량, 이어 하기 저장은 이용자의 휴대폰 안(앱 저장 공간)에만 저장되며, 앱을 삭제하면 함께 지워집니다. 설정 화면에서 직접 지울 수도 있습니다. 안드로이드 기기 백업이 켜져 있으면 이 데이터가 이용자 본인의 Google 계정 백업에 포함될 수 있으나, 개발자는 이에 접근할 수 없습니다.
 
 게임 자체는 인터넷 없이 동작합니다. 인터넷은 아래 2·4항의 **광고**와 **유료 상품 결제**에만 사용됩니다.
 
@@ -51,7 +51,7 @@ picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용�
 
 ## 4. 유료 상품 (인앱 결제)
 
-앱은 'Pro(광고 제거)'와 '별 묶음'을 판매합니다. 결제는 **Google Play**가 처리하며, 카드 번호 등 결제 정보는 개발자에게 전달되지 않습니다. 앱은 Google Play 결제 라이브러리를 통해 구매 여부(상품 ID·구매 토큰)만 확인하며, 이 정보는 휴대폰 안에만 보관합니다. Google 개인정보처리방침: <https://policies.google.com/privacy>
+앱은 'Pro(광고 제거)'와 '콘 묶음'을 판매합니다. 결제는 **Google Play**가 처리하며, 카드 번호 등 결제 정보는 개발자에게 전달되지 않습니다. 앱은 Google Play 결제 라이브러리를 통해 구매 여부(상품 ID·구매 토큰)만 확인하며, 이 정보는 휴대폰 안에만 보관합니다. Google 개인정보처리방침: <https://policies.google.com/privacy>
 
 ## 5. 제3자 제공 및 처리 위탁
 
@@ -76,10 +76,10 @@ picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용�
 
 Effective date: December 1, 2026
 
-1. **Information the developer collects:** None. There are no accounts, logins or developer servers. Game records, settings, progress, star balance and saved games are stored only on your phone and are deleted when you uninstall the app (you can also clear them in Settings). If Android backup is on, they may be included in your own Google account backup, which the developer cannot access. Games work offline; the internet is used only for ads and purchases.
+1. **Information the developer collects:** None. There are no accounts, logins or developer servers. Game records, settings, progress, corn balance and saved games are stored only on your phone and are deleted when you uninstall the app (you can also clear them in Settings). If Android backup is on, they may be included in your own Google account backup, which the developer cannot access. Games work offline; the internet is used only for ads and purchases.
 2. **Ads (Google AdMob):** The app is free and supported by ads from Google AdMob — rewarded ads you choose to watch, and occasional interstitial ads after a game ends (never during play). Buying 'Pro' removes ads. The AdMob SDK may collect the advertising ID, device information (model, OS version, language), IP address, ad interactions, app usage and diagnostics to serve and measure ads and prevent fraud. This data is processed by Google; the developer does not receive information that identifies you. Users in the EEA/UK see a consent form on first launch and can change it anytime in Settings › Purchases & ads › Ad privacy choices. You can reset or delete your advertising ID in your device's Google settings. Ad content is limited to the 'T (Teen)' rating. Google Privacy Policy: <https://policies.google.com/privacy> · How Google uses data from partner apps: <https://policies.google.com/technologies/partner-sites>
 3. **Permissions:** Internet & network state (ads and purchases only); advertising ID & ad services (AdMob); billing (Google Play); Bluetooth scan/connect/advertise — optional (2-player matches between two nearby phones; only game moves and your nickname are exchanged directly between the devices); location — Android 11 and below only, optional (system requirement for Bluetooth discovery; location is never read, stored or sent); vibration (touch feedback); wake lock / foreground service (used internally by the ads and billing libraries). Everything except Bluetooth matches works without the optional permissions.
-4. **In-app purchases:** 'Pro (remove ads)' and star packs are processed by Google Play. Payment details are never shared with the developer; the app only checks purchase status (product ID, purchase token) and keeps it on your phone.
+4. **In-app purchases:** 'Pro (remove ads)' and corn packs are processed by Google Play. Payment details are never shared with the developer; the app only checks purchase status (product ID, purchase token) and keeps it on your phone.
 5. **Third parties:** The developer does not provide or entrust personal data to third parties. Ads (Google AdMob) and payments (Google Play) are handled by Google LLC under its own policies.
 6. **Children:** The app is not directed at children under 13 (it includes simulated-gambling poker games) and marks ad requests as not child-directed.
 7. **Changes:** We will announce changes through app updates and this page.
