@@ -5,7 +5,7 @@ permalink: /privacy
 
 # 픽오락실 개인정보처리방침
 
-시행일: 2026년 12월 1일
+시행일: 2026년 11월 23일
 
 picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용자의 개인정보를 중요하게 여기며, 앱이 어떤 정보를 어떻게 다루는지 아래와 같이 알립니다.
 
@@ -46,8 +46,14 @@ picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용�
 | 위치 (ACCESS_FINE_LOCATION) — 안드로이드 11 이하에서만, 선택 | 안드로이드 11 이하에서 블루투스 기기 검색에 필요한 시스템 요구 사항. 위치 정보는 읽거나 저장·전송하지 않음 |
 | 진동 (VIBRATE) | 터치 반응 진동 |
 | 화면 켜짐 유지·백그라운드 작업 (WAKE_LOCK·FOREGROUND_SERVICE) | 광고·결제 라이브러리의 내부 동작 |
+| 알림 (POST_NOTIFICATIONS) — 안드로이드 13 이상, 선택 | '매일 알림'(기본 꺼짐)을 켰을 때 정한 시각에 오늘의 퀘스트를 알림. 첫 실행에는 묻지 않고, 이용자가 알림을 켤 때만 요청 |
+| 부팅 완료 수신 (RECEIVE_BOOT_COMPLETED) | 휴대폰을 다시 켠 뒤 '매일 알림' 예약을 기기 안에서 다시 설정 |
 
-선택 권한(블루투스·위치)은 허용하지 않아도 블루투스 대전을 제외한 모든 기능을 쓸 수 있습니다.
+'매일 알림'은 휴대폰 안(AlarmManager)에서만 예약되며 서버를 쓰지 않습니다. 알림 시각·문구는 기기에만 저장되고 어떤 정보도 외부로 전송하지 않습니다. 정확한 알람 권한은 사용하지 않으므로 알림은 정한 시각 무렵(몇 분 늦을 수 있음)에 표시됩니다. 설정 > 플레이 > '매일 알림'에서 언제든 끌 수 있습니다.
+
+앱 평가 요청: 앱은 가끔 Google Play의 인앱 리뷰 창을 띄울 수 있습니다(승리 직후 등, 60일에 한 번 이하). 리뷰 창과 작성한 평가는 Google Play가 처리하며, 개발자는 리뷰 창이 표시되었는지나 평가 내용을 앱 안에서 받지 않습니다.
+
+선택 권한(블루투스·위치·알림)은 허용하지 않아도 블루투스 대전·매일 알림을 제외한 모든 기능을 쓸 수 있습니다.
 
 ## 4. 유료 상품 (인앱 결제)
 
@@ -74,11 +80,11 @@ picoseven(이하 "개발자")은 픽오락실(Pick Arcade, 이하 "앱") 이용�
 
 # Pick Arcade Privacy Policy
 
-Effective date: December 1, 2026
+Effective date: November 23, 2026
 
 1. **Information the developer collects:** None. There are no accounts, logins or developer servers. Game records, settings, progress, corn balance and saved games are stored only on your phone and are deleted when you uninstall the app (you can also clear them in Settings). If Android backup is on, they may be included in your own Google account backup, which the developer cannot access. Games work offline; the internet is used only for ads and purchases.
 2. **Ads (Google AdMob):** The app is free and supported by ads from Google AdMob — rewarded ads you choose to watch, and occasional interstitial ads after a game ends (never during play). Buying 'Pro' removes ads. The AdMob SDK may collect the advertising ID, device information (model, OS version, language), IP address, ad interactions, app usage and diagnostics to serve and measure ads and prevent fraud. This data is processed by Google; the developer does not receive information that identifies you. Users in the EEA/UK see a consent form on first launch and can change it anytime in Settings › Purchases & ads › Ad privacy choices. You can reset or delete your advertising ID in your device's Google settings. Ad content is limited to the 'T (Teen)' rating. Google Privacy Policy: <https://policies.google.com/privacy> · How Google uses data from partner apps: <https://policies.google.com/technologies/partner-sites>
-3. **Permissions:** Internet & network state (ads and purchases only); advertising ID & ad services (AdMob); billing (Google Play); Bluetooth scan/connect/advertise — optional (2-player matches between two nearby phones; only game moves and your nickname are exchanged directly between the devices); location — Android 11 and below only, optional (system requirement for Bluetooth discovery; location is never read, stored or sent); vibration (touch feedback); wake lock / foreground service (used internally by the ads and billing libraries). Everything except Bluetooth matches works without the optional permissions.
+3. **Permissions:** Internet & network state (ads and purchases only); advertising ID & ad services (AdMob); billing (Google Play); Bluetooth scan/connect/advertise — optional (2-player matches between two nearby phones; only game moves and your nickname are exchanged directly between the devices); location — Android 11 and below only, optional (system requirement for Bluetooth discovery; location is never read, stored or sent); vibration (touch feedback); wake lock / foreground service (used internally by the ads and billing libraries); notifications — Android 13+, optional (the 'Daily reminder', off by default, is asked for only when you turn it on, never at first launch); receive boot completed (re-schedules the daily reminder on the device after a restart). The daily reminder is scheduled on your phone only (AlarmManager, no server); its time and text stay on the device and nothing is sent anywhere. No exact-alarm permission is used, so it may arrive a few minutes late. Turn it off anytime in Settings › Play › Daily reminder. The app may occasionally show Google Play's in-app review prompt (e.g. after a win, at most once every 60 days); the prompt and any rating you leave are handled by Google Play, and the developer does not receive whether it was shown or what you wrote. Everything except Bluetooth matches and the daily reminder works without the optional permissions.
 4. **In-app purchases:** 'Pro (remove ads)' and corn packs are processed by Google Play. Payment details are never shared with the developer; the app only checks purchase status (product ID, purchase token) and keeps it on your phone.
 5. **Third parties:** The developer does not provide or entrust personal data to third parties. Ads (Google AdMob) and payments (Google Play) are handled by Google LLC under its own policies.
 6. **Children:** The app is not directed at children under 13 (it includes simulated-gambling poker games) and marks ad requests as not child-directed.

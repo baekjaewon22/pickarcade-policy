@@ -5,7 +5,7 @@ permalink: /terms
 
 # 픽오락실 이용약관
 
-시행일: 2026년 12월 1일
+시행일: 2026년 11월 23일
 
 ## 1. 서비스 내용
 픽오락실(Pick Arcade, 이하 "앱")은 picoseven(이하 "개발자")이 제공하는 게임 모음 앱입니다. 모든 게임은 무료로 이용할 수 있으며, 광고가 표시될 수 있습니다. 이용자는 선택에 따라 아래 유료 상품을 구매할 수 있습니다.
@@ -49,7 +49,7 @@ permalink: /terms
 
 # Pick Arcade Terms of Service
 
-Effective date: December 1, 2026
+Effective date: November 23, 2026
 
 1. **Service:** Pick Arcade ("the app") is a game collection provided by picoseven ("the developer"). All games are free to play and may show ads. You may optionally buy the products below.
 2. **Paid products:** *Pro (remove ads)* — one-time purchase: removes all ads, gives the ad-based rewards (extra hints, second chances, free corn) instantly without ads within the daily limits, plus a gift of 100 corn. *Corn packs* — consumable in-app currency (corn) for extra hints, second chances and cosmetics.
